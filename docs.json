@@ -26,12 +26,18 @@
         "language": "en",
         "tabs": [
           {
+            "tab": "Home",
+            "pages": [
+              "index"
+            ]
+          },
+          {
             "tab": "Documentation",
             "pages": [
               {
                 "group": "Getting Started",
                 "pages": [
-                  "index",
+                  "introduction",
                   "quickstart"
                 ]
               }
@@ -52,7 +58,7 @@
               {
                 "group": "开始使用",
                 "pages": [
-                  "zh/index",
+                  "zh/introduction",
                   "zh/quickstart"
                 ]
               }
@@ -90,5 +96,8 @@
   },
   "appearance": {
     "default": "dark"
+  },
+  "metadata": {
+    "timestamp": true
   }
 }
