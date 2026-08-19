@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "aspen",
+  "theme": "mint",
   "name": "SyNull Docs",
   "colors": {
     "primary": "#8B5CF6",
