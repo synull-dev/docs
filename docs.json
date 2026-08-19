@@ -1,0 +1,94 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "aspen",
+  "name": "SyNull Docs",
+  "colors": {
+    "primary": "#8B5CF6",
+    "light": "#A78BFA",
+    "dark": "#7C3AED"
+  },
+  "favicon": {
+    "light": "/favicon.svg",
+    "dark": "/images/favicon-dark.svg"
+  },
+  "navigation": {
+    "pages": [
+      {
+        "group": "Getting Started",
+        "pages": [
+          "index",
+          "quickstart"
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "en",
+        "tabs": [
+          {
+            "tab": "Documentation",
+            "pages": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "index",
+                  "quickstart"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "API Reference",
+            "hidden": true
+          }
+        ]
+      },
+      {
+        "language": "zh",
+        "tabs": [
+          {
+            "tab": "文档",
+            "groups": [
+              {
+                "group": "开始使用",
+                "pages": [
+                  "zh/index",
+                  "zh/quickstart"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "API 参考",
+            "hidden": true
+          }
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "/images/logo/light.svg",
+    "dark": "/images/logo/dark.svg"
+  },
+  "navbar": {
+    "links": []
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
+  },
+  "icons": {
+    "library": "lucide"
+  },
+  "appearance": {
+    "default": "dark"
+  }
+}
